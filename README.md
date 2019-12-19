@@ -1,0 +1,1 @@
+An easy to use interactive and responsive website with multiple features aimed to improve the user experience of senior citizens (among others) with the help of voice navigation.

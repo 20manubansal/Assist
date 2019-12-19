@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+        </style>
+       
+    </head>
+    <body>
+            <div class="list-type6">
+                <ol align = "center">
+                    <li>
+                        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                        <script type="text/javascript">
+                        $(function(){
+                            $('#button1').click(function(){ 
+                                if(document.getElementById("iframeHolder1").hidden == true) {
+                                    document.getElementById("iframeHolder1").hidden = false;
+                                    document.getElementById("iframeHolder2").hidden = true;
+                                }
+                                else{
+                                    document.getElementById("iframeHolder1").hidden = true;
+                                }
+                            });   
+                        });
+                        </script>
+                         
+                        <button id="button1">Humein tumse pyaar kitna</button>
+                        <div id="iframeHolder1" hidden>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2tWegG6T58U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+                        </div>
+                    </li>
+
+                    <br>
+                    <br>
+                    <li>            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                        <script type="text/javascript">
+                        $(function(){
+                            $('#button2').click(function(){ 
+                                if(document.getElementById("iframeHolder2").hidden == true) {
+                                    document.getElementById("iframeHolder2").hidden = false;
+                                    document.getElementById("iframeHolder1").hidden = true;
+                                }
+                                else{
+                                    document.getElementById("iframeHolder2").hidden = true;
+                                }
+                            });   
+                        });
+                        </script>
+                         
+                        <button id="button2">badan pe sitaare</button>
+                        <div id="iframeHolder2" hidden>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MkABeVCv4lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </li>
+
+                    
+
+                    <!-- <li><a href="#">Formget Online Form Builder Create Online Forms</a></li> -->
+                    <!-- <li><a href="#">Formget Online Form Builder Create Online Forms</a></li> -->
+                </ol>
+            </div>
+
+
+
+
+
+
+    </body>
+
+</html>
